@@ -1,0 +1,128 @@
+.container {
+    width: auto;
+}
+
+.home {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.7rem;
+    justify-content: space-around;
+    margin-top: 0.7rem;
+}
+
+nav .search-and-location {
+    display: flex;
+}
+
+nav .search-and-location .location-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 11vw;
+    height: 1rem;
+    padding: 0.7rem;
+    border: 1px solid rgb(224 223 223);
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+
+nav .search-and-location .location-box .location-sign {
+    background-color: rgb(232, 232, 232);
+    width: 2vw;
+    height: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .search-and-location .location-box .location-text {
+    color: #0a976e;
+    font-size: 1rem;
+}
+
+/* search box  */
+nav .search-and-location .search-box input {
+    width: 30vw;
+    margin-left: 1rem;
+    height: 2.3rem;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid rgb(224 223 223);
+}
+
+nav .search-and-location .search-box .bi-search {
+    width: 30vw;
+    height: 1rem;
+    background-color: #0a976e;
+    padding: 0.5rem;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    font-weight: bold;
+}
+
+nav .contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .contact .bi-telephone {
+    margin-right: 1rem;
+    color: #0a976e;
+}
+
+nav .contact .bi-cart {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+nav .contact .login-person {
+    display: flex;
+    margin-left: 1rem;
+    color: #0a976e;
+    /* flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+marquee {
+    font-weight: bold;
+
+}
+
+
+/* -----------Carousel-------- */
+
+.carousel {}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    margin-top: 12rem;
+}
+
+
+
+
+@media screen and (max-width:1300px) {
+    .location-box {
+        width: 2vw;
+    }
+
+    .location-box .location-text,
+    .fa-chevron-down {
+        display: none;
+        width: 1vw;
+    }
+
+}

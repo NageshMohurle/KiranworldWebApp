@@ -1,0 +1,178 @@
+.hot-products {
+    margin: 7rem;
+    height: auto;
+}
+
+.hot-products .products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+    margin: 2rem;
+}
+
+.hot-products .products .product {
+    width: 18%;
+    margin: 0.7rem;
+    /* border: 2px solid black; */
+}
+
+.hot-products .products .product img {
+    width: 8vw;
+    height: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    /* transform: scale(0.4); */
+    /* transition: 0.5s ease-in-out; */
+}
+
+.hot-products .products .product .company-title {
+    font-size: 0.7rem;
+
+}
+
+.hot-products .products .product .title {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.hot-products .products .product .price-box {
+    display: flex;
+    align-items: center;
+    margin-top: -1rem;
+}
+
+.hot-products .products .product .price {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #0a976e;
+    margin-right: 1rem;
+}
+
+.hot-products .products .product .original-price {
+    font-size: 0.7rem;
+    text-decoration: line-through;
+}
+
+.hot-products .products .product .product-footer {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-products .products .product .product-footer .product-btn {
+    background-color: #0a976e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* ------------tranding products ------- */
+
+
+.tranding-products {
+    margin: 7rem;
+    height: auto;
+}
+
+
+.tranding-products .products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40vh;
+    margin: 2rem;
+}
+
+.tranding-products .products .product {
+    width: 18%;
+    margin: 0.7rem;
+    /* border: 2px solid black; */
+}
+
+.tranding-products .products .product img {
+    width: 8vw;
+    height: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.tranding-products .products .product img:hover {
+    transform: scale(-0.4);
+    transition: 0.5s ease-in-out;
+}
+
+.tranding-products .products .product .company-title {
+    font-size: 0.7rem;
+
+}
+
+.tranding-products .products .product .title {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.tranding-products .products .product .price-box {
+    display: flex;
+    align-items: center;
+    margin-top: -1rem;
+}
+
+.tranding-products .products .product .price {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #0a976e;
+    margin-right: 1rem;
+}
+
+.tranding-products .products .product .original-price {
+    font-size: 0.8rem;
+    text-decoration: line-through;
+}
+
+.tranding-products .products .product .product-footer {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tranding-products .products .product .product-footer .product-btn {
+    background-color: #0a976e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1300px) {
+    .hot-products {
+        margin: 2rem;
+    }
+
+    .tranding-products {
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .hot-products {
+        margin: 1rem;
+    }
+
+    .tranding-products {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .hot-products {
+        margin: 1rem;
+    }
+
+    .tranding-products {
+        margin: 1rem;
+    }
+}

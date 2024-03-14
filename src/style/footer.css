@@ -1,0 +1,66 @@
+.mobile-footer {
+    display: none;
+}
+
+footer {
+    background-color: rgb(222, 225, 228);
+    position: relative;
+    bottom: -7rem;
+}
+
+.footer {
+    display: flex;
+    /* margin: 7rem; */
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.footer .item {
+    width: 20%;
+}
+
+.footer #contact-us .mobile-num {
+    font-weight: bold;
+}
+
+.footer .item:nth-child(1) {
+    width: 20%;
+}
+
+
+/* ..........mobile footer.......... */
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .mobile-footer {
+        /* display: block; */
+        display: flex;
+        height: 20vh;
+        background-color: green;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-footer div {
+        width: 6rem;
+        line-height: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .footer {
+        display: none;
+    }
+}
